@@ -1,0 +1,478 @@
+/* App {
+  text-align: center;
+  color: #4fc316;
+  border: #61dafb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color:rgb(57, 161, 230);
+
+
+}
+.logo-box{
+  background-color: antiquewhite;
+  padding: 30px 120px;
+  width: 550px;
+  position:absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.tlogo{
+  width: 30px;
+  margin-bottom: 20px;
+  justify-self:center;
+  transform: translate(-50%,-50%);
+
+
+}
+.alogo
+{
+  width: 30px;
+  margin-bottom: 20px;
+
+
+
+}
+
+.logo-box h2 {
+  margin-bottom: 20px;
+}
+
+.logo-box button{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #999 ;
+  font-weight: 500;
+  cursor: pointer;
+}
+ 
+.logo-box button img{
+  width: 18px;
+  margin-right: 10px; 
+
+}
+
+.logo-box span{
+  display: block;
+  width: 30px;
+  margin: auto;
+  background-color: antiquewhite;
+  font-size: 14px;
+  margin-top: -11px;
+}
+
+.logo-box input{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #999 ;
+  font-weight: 500;
+  text-align: center;
+
+
+}
+.logo-box form button{
+  background-color: black;
+  color:antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:medium;
+
+}
+
+.logo-box p a{
+  color: rgb(92, 121, 224);
+}
+
+.box{
+  background-color: rgb(239, 236, 246);
+  padding: 150px 450px;
+  width: 550px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0%;
+
+}
+
+.boxa{
+  background-color: rgb(245, 249, 249);
+  width: 100%;
+  height: 400px;
+  padding: 20px 100px;
+  justify-self: center;
+  
+}
+.box snulogo{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 200px;
+  background-color: antiquewhite;
+
+  transform: translate(-50%,-50%);
+
+}
+.box input{
+justify-content: center;
+width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #999 ;
+  font-weight: 500;
+  text-align: center;
+
+}
+.box{
+  background-color: rgb(255, 255, 255);
+  padding: 400px 190px;
+  width: 550px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  text-align: left;
+  border-radius:2%;
+  border: 1px solid rgb(158, 157, 157);
+  justify-content:flex-start;
+  position: absolute;
+
+
+}
+
+.boxa{
+margin: 2px;
+position:unset;
+padding: 20px 60px;
+text-align: center;
+justify-content: flex-start;
+flex-direction: column;
+
+}
+*{
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+
+body {
+  font-family:'Arial Narrow Bold', sans-serif;
+  background-color: #ffffff;
+  margin:auto;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 50px 40px;
+  width: 550px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 2%;
+  text-align: right;
+  border: 1px solid rgb(158, 157, 157);
+  justify-content:flex-start;
+  position: absolute;
+}
+
+.header {
+  text-align: center;
+  padding: 1px 0;
+}
+.header2 {
+  text-align: center;
+  padding:0%;
+}
+.content butt{
+  justify-content: right;
+  
+}
+.text{
+  text-align: left;
+  justify-content: left;
+  padding: 20px 10px;
+  width: 100%;
+  font-family:'Arial Narrow Bold', sans-serif;
+
+
+}
+.text p{
+  padding: 5px 0;
+  font-size: 18px;
+
+
+
+}
+.header img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0px;
+  padding-bottom: 20px;
+}
+
+.content {
+  padding: 20px;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.google-logo img {
+  width: 92px;
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+form input {
+  width: 100%;
+  padding: 22px 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  border-radius: 5px;
+  background: transparent;
+}
+
+button {
+  width: 15%;
+  padding: 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+form p {
+  
+  font-size: 16px;
+  color: #4285f4;
+  text-decoration: none;
+  cursor: pointer;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.bottom-link {
+  font-size: 16px;
+  color: #4285f4;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: left;
+  font-family:'Arial Narrow Bold', sans-serif;
+  padding:
+
+}
+.bottom-link p{
+  margin-top: 20px;
+  font-size: 16px;
+  color: #3d3c3c;
+  text-align: left;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.lm{
+  
+  padding-bottom: 40px;
+
+
+}*/
+
+*{
+  flex-direction: column;
+  justify-content: center;
+  background-color:color(rec2020 pink green blue);
+}
+
+.cont{
+  padding: 20px 20px;
+  width:40%;
+  height:40%;
+  transform: translate(60%,60%);
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+}
+.yes{
+  padding: 20px 0;
+}
+
+.box1{
+  background-color: rgb(0, 0, 0);
+  color: beige;
+  padding: 20px 60px;
+  text-align: left;
+  font-size: 40px;
+  
+
+
+}
+.box1 img{
+  height:37px;
+  width: 40px;
+  padding: 0px 20px;
+  background-color: black;
+}
+.box2{
+  padding: 24px 0;
+  background-color: rgb(202, 202, 248);
+  color: black;
+  
+}
+.box2 form{
+  background-color:transparent;
+  padding: 20px 20px;
+  text-align: left;
+  
+}
+.box2 input{
+  width: 80%;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: large;
+}
+.box3{
+  padding: 20px 20px;
+  text-align: right;
+
+  background-color: rgb(202, 202, 248);
+  
+}
+
+.box3 a{
+ /*  background-color: blue;
+  border: 1px solid rgb(201, 201, 201);
+  text-decoration: none;
+  color: beige;
+  padding: 10px 10px;
+  border-radius: 9px;
+} */
+  padding: 10px 40px;
+  background-color: #4285f4;
+  color: #000000;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.box3 button a{
+  padding: 10px 40px;
+  background-color:  #616976;
+  color: #000000;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  
+
+}
+.box3 button{
+  background-color: transparent;
+  border: none;
+
+}
+.box4{
+  text-align: center;
+  background-color: rgb(251, 251, 251);
+  border: 2px solid rgb(202, 202, 248);
+  align-items: center;
+  justify-content: left;
+  font-size: 17px;
+  padding: 0px 30px;
+  cursor: pointer;
+
+
+}
+.box4 button{
+  background-color:transparent;
+  width:100%;
+  border: transparent;
+  padding: 20px 200px;
+  font-size: large;
+  cursor: pointer;
+
+
+}
